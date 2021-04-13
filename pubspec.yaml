@@ -1,11 +1,11 @@
 name: quitter
 description: A plugin to quit both android and iOS gracefully
-version: 1.0.0
+version: 2.0.0
 author: Richardo <richardothayeb@gmail.com>
 homepage: https://github.com/ricnaaru/quitter
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
   flutter:
