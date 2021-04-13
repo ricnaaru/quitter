@@ -1,6 +1,6 @@
-## 2.0.0
+## 2.0.0-nullsafety
 
-* Migrate to Flutter 2
+* Migrate to null safety.
 
 ## 1.0.0
 
