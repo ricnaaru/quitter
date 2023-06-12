@@ -9,7 +9,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,9 +17,12 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: Center(
-          child: FlatButton(child: Text('Press to quit'), onPressed: () {
-            Quitter.quitApplication();
-          },),
+          child: ElevatedButton(
+            child: Text('Press to quit'),
+            onPressed: () {
+              Quitter.quitApplication();
+            },
+          ),
         ),
       ),
     );
