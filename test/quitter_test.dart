@@ -16,6 +16,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await Quitter.quitApplication, '42');
+    expect(Quitter.quitApplication, '42');
   });
 }
